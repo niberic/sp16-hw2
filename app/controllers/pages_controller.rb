@@ -21,4 +21,8 @@ class PagesController < ApplicationController
     @birth = person.birth_year
     @nick = person.nickname
   end
+
+  def me
+    
+  end
 end
